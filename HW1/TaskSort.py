@@ -9,7 +9,7 @@ def sort_list_imperative(numbers):
             if numbers[i] < numbers[j]:
                 numbers[i], numbers[j] = numbers[j], numbers[i]
     print(numbers)
-    return numbers
+    
 
 
 
